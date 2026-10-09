@@ -15,8 +15,9 @@ Writeups for Hack The Box machines I've completed.
 | Machine | OS | Difficulty | Status |
 |---|---|---|---|
 | [Cohort](machines/cohort/) | Linux | Easy | ✅ Pwned |
+| [DanglingTree](machines/danglingtree/) | Windows / Active Directory | Medium | ✅ Completed — write-up pending official retirement |
 
-More machines will be added as I work through HTB.
+More machines will be added as I work through HTB. Detailed solutions are published only when HTB officially permits publication.
 
 ---
 
@@ -50,9 +51,12 @@ Additional cybersecurity labs, experiments, and hands-on security exercises outs
 htb-writeups/
 │
 ├── machines/
-│   └── cohort/
-│       ├── README.md
-│       └── scripts/
+│   ├── cohort/
+│   │   ├── README.md
+│   │   └── scripts/
+│   │
+│   └── danglingtree/
+│       └── README.md
 │
 ├── challenges/
 │
@@ -61,3 +65,4 @@ htb-writeups/
 ├── labs/
 │
 └── templates/
+```
